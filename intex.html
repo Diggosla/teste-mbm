@@ -2,36 +2,87 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/estilos.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/estilos.css">
 </head>
 
 <body>
 
-    <div class="i"></div>
 
-    <div class="base">
+  <center>
+    <div>
+      <div>
+        <div>
+
+          <form class="tabela" action="cadastrarusuario.php" method="POST">
+            <label>CNPJ*</label>
+            <!-- <input type="number" class="CNPJ" placeholder="Digite seu CNPJ"> <input type="checkbox"> <br> -->
+            <input 
+            id="produto-1-cnpj" 
+            type="text" 
+            placeholder="Insira o CNPJ da sua loja"
+            class="form-control rounded-form" 
+            maxlength="18"/>
+           
+            <label>Razão Social</label>
+            <input type="text" ><br>
+
+            <label>Nome fantasia</label>
+            <input type="text"  id="telefone" name="telefone"><br>
+
+            <label>pais</label>
+            <input type="text" placeholder="Diguite seu  pais"><br>
+
+            <label>Bairro</label>
+            <input type="text" placeholder="Digite seu Bairro"><br>
+
+            <label>Cidade</label>
+            <input type="text" placeholder="Digite sua Cidade" id="celular" name="celular"><br>
+
+            <label>UF</label>
+            <input type="text" placeholder="Digite seu UF" id="celular" name="celular"><br>
+
+            <label>Site da empresa</label>
+            <input type="text" placeholder="Diguite o site da sua empresa" id="celular" name="celular"><br>
+
+            <form>
+              <div>
+
+                <label for="Cadastre-se"> vc tem certeza? </label>
+                <input type="checkbox" checked="checked">
+
+              </div>
+              <div>
+
+                <button type="submit" class="botao">Cadastre-se</button>
+
+              </div>
+            </form>
+          </form>
+  </center>
+
+  </div>
+  </div>
+  </div>
 
 
-        <h1> <button type="menu"> ola mundo</button></h1>
-    </div>
 
 
 
-    <div class="final">
+  <div class="final">
 
 
-    </div>
+  </div>
 
 
 
 
 
 
-
+  <script src="app.js"></script>
 </body>
 
 </html>
